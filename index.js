@@ -1,8 +1,7 @@
-/**
- * Created by mengqingdong on 2017/7/18.
+/*
+ * @noflow - get/set properties not yet supported by flow. also `...require(x)` is broken #6560135
  */
 
+import Touchable from './lib/Touchable'
 
-module.exports = {
-    get Touchable() { return require('./lib/Touchable').default; },
-};
+module.exports = Touchable
