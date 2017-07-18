@@ -1,0 +1,40 @@
+{
+  "name": "react-native-touchable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.46.4"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.1.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/781238222/react-native-touchable.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "touchable"
+  ],
+  "author": "mengqingdong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/781238222/react-native-touchable/issues"
+  },
+  "homepage": "https://github.com/781238222/react-native-touchable#readme"
+}
