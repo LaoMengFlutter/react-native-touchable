@@ -5,10 +5,10 @@
  */
 
 import {
-  AppRegistry,
+    AppRegistry,
 
 } from 'react-native';
 
-import Touchable from './example/TouchableDemo'
+import Touchable from './TouchableDemo'
 
 AppRegistry.registerComponent('Touchable', () => Touchable);

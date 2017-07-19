@@ -7,7 +7,7 @@ import {
     View,
     Text,
 } from 'react-native';
-import Touchable from '../lib/Touchable'
+import Touchable from 'react-native-touchable'
 
 export default class TouchableDemo extends Component {
 

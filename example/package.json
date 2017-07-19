@@ -1,0 +1,25 @@
+{
+  "name": "react-native-touchable-demo",
+  "version": "1.0.4",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.46.4",
+    "react-native-touchable": "../"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.1.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
